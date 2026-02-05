@@ -6,7 +6,7 @@
                     <div class="col-12 col-md-8 col-lg-5">
                         <div class="card shadow-sm border-0">
                             <div class="card-body p-5">
-                                <h2 class="fw-bold mb-4 text-center">Login</h2>
+                                <h2 class="fw-bold mb-4 text-center">Login Blogs</h2>
 
                                 <form @submit.prevent="handleLogin">
                                     <div class="mb-3">
