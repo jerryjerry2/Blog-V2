@@ -7,6 +7,8 @@
       width: 240px;
       min-height: 100vh;
       background: #111827;
+      max-width: 200px;
+      min-width: 200px;
     }
 
     .sidebar a {

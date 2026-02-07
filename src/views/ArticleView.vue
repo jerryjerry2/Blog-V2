@@ -6,7 +6,7 @@
       <!-- Sidebar -->
       <Sidebar></Sidebar>
       <!-- Main Content -->
-      <div class=" content">
+      <div class=" content flex-fill">
         <h3>Article Page</h3>
         <div class="d-flex justify-content-end my-4">
           <router-link class="btn bg-primary text-light w-25" :to="{name:'createArticle'}">

@@ -31,6 +31,7 @@ const router = createRouter({
       meta : {require : true}
     },
   ],
+  linkActiveClass : 'active'
 })
 
 router.beforeEach((to, from) => {

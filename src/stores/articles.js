@@ -6,8 +6,12 @@ export const useArticleStore = ('article', () => {
     let articles = ref([]); 
     let ownArticles = ref([])
 
-    async function fetchAritcles() {
-        let res = await api.get('/articles');
+    async function fetchAritcles({search = ""} = {}) {
+        let res = await api.get('/articles',{
+            params: {
+                search,
+            }
+        });
         articles.value = res.data.data.items
         // console.log(articles.value)
              
